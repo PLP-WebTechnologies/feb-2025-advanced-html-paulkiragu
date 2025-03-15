@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Structured Web Page</title>
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <h1>Welcome to My Web Page</h1>
+    <p>A sample page showcasing different HTML elements</p>
+  </header>
+
+  <!-- Main Content Section -->
+  <main>
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+      <h2>Table of Contents</h2>
+      <ol type="I">
+        <li>Introduction</li>
+        <li>Overview</li>
+        <li>Details</li>
+        <li>Conclusion</li>
+        <li>References</li>
+      </ol>
+    </section>
+
+    <!-- External Image -->
+    <section>
+      <h2>External Image</h2>
+      <img src="https://www.pexels.com/photo/photo-of-turned-on-laptop-computer-943096/" alt="coding laptop" width="600">
+    </section>
+
+    <!-- Table of Contacts -->
+    <section>
+      <h2>Contact List</h2>
+      <table border="1" cellspacing="0" cellpadding="10">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>city</th>
+            <th>Mobile</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John ochieng</td>
+            <td>Kisumu</td>
+            <td>+2547456789</td>
+            <td>johnochieng@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Alice wanjiku</td>
+            <td>Nairobi</td>
+            <td>+2547654321</td>
+            <td>alice@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Paul Kiragu</td>
+            <td>Mombasa</td>
+            <td>+2547223344</td>
+            <td>paul.kiragu@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Mary makau</td>
+            <td>Nakuru</td>
+            <td>+2547443322</td>
+            <td>mary@gmail.com</td>
+          </tr>
+          <tr>
+            <td>James Otieno</td>
+            <td>Nairobi</td>
+            <td>+254778899</td>
+            <td>james.otieno@gmail.com</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+      <h2>Registration Form</h2>
+      <form action="submit">
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+          <label for="password">Password:</label><br>
+          <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+          <label for="dob">Date of Birth:</label><br>
+          <input type="date" id="dob" name="dob" required><br><br>
+        </fieldset>
+
+        <fieldset>
+          <legend>Additional Information</legend>
+          <label for="country">Country:</label><br>
+          <select id="country" name="country" required>
+            <option value="">Select your country</option>
+            <option value="kenya">Kenya</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+            <option value="india">India</option>
+            <option value="canada">Canada</option>
+          </select><br><br>
+
+          <label>Gender:</label><br>
+          <input type="radio" id="male" name="gender" value="male" required>
+          <label for="male">Male</label><br>
+          <input type="radio" id="female" name="gender" value="female" required>
+          <label for="female">Female</label><br><br>
+
+          <label>Hobbies:</label><br>
+          <input type="checkbox" id="reading" name="hobbies" value="reading">
+          <label for="reading">Reading</label><br>
+          <input type="checkbox" id="traveling" name="hobbies" value="traveling">
+          <label for="traveling">Traveling</label><br>
+          <input type="checkbox" id="sports" name="hobbies" value="sports">
+          <label for="sports">Sports</label><br><br>
+
+          <input type="submit" value="Register">
+        </fieldset>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
